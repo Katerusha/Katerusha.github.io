@@ -54,11 +54,13 @@ body{
     margin: 5px 0;
 }
 .image{
-    max-width: initial;
+/*     max-width: initial;
     max-height: initial;
     min-width: 200px;
     width: auto;
-    height: calc(95vw / 2 / 16*9);
+    height: calc(95vw / 2 / 16*9); */
+    widht:100%;
+    hight: auto;
     display: block;
     margin-bottom: 10px;
     opacity: 0.5;
