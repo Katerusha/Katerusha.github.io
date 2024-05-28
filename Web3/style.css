@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.div_top{
+    height: 25px;
+    background-color: rgb(63, 63, 63);
+}
+.div_top_text{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+.TopNav{
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    -ms-flex-item-align: center;
+    align-items: center;
+}
+.div_nav{
+    background-color: rgb(171, 255, 161);
+    /* position: absolute; */
+    height: 50px;
+    display: flex;
+    padding: 0 100px;
+    width: 100%;
+    -ms-flex-items-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 30px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 50px;
+}
+img{
+    width:100px;
+    height: 80px;
+    display: block;
+}
+.poisc{
+    margin-left: 20px;
+}
+.search{
+    background-image: url(/Web3/img/loza.png);
+    background-position: 0px center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+}
+/* header{
+    background-image: url(/Web3/img/background_miata.jpg);
+} */
+.ground{
+    background-color: rgb(154, 154, 154);
+    height: 100px;
+    width: auto;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+}
+
+html{
+    background-image: url(/Web3/img/background_miata.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-position: 0px center;
+}
+.div_text{
+    background-color: rgb(255, 255, 255);
+    margin: 10px 100px 0 100px;
+    padding: 10px;
+    display: block;
+    height: auto;
+    width: auto;
+}
+.top{
+    display: flex;
+}
+.text{
+    /* margin: 10px 100px 0 100px; */
+    padding: 10px;
+    height: auto;
+    width: auto;
+    text-indent: 50px;
+}
+.rubik{
+    height: 200px;
+    width: 200px;
+}
+.zagolovok{
+    font-size: 40px;
+    font-family: 'Comfortaa', sans-serif;
+    text-indent: 50px;
+    margin-left: 50px;
+}
+.text_p1{
+    font-size: 20px;
+    font-family: 'Comfortaa', sans-serif;
+}
